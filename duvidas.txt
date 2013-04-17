@@ -8,3 +8,4 @@ cd: alterar diretorio
 ls: listar diretorio
 mkdir: criar pasta
 
+control sift t, nova aba
