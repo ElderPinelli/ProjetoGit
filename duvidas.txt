@@ -9,3 +9,6 @@ ls: listar diretorio
 mkdir: criar pasta
 
 control sift t, nova aba
+
+
+dizer pra q serve o leia-me
