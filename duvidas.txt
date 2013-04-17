@@ -1,0 +1,10 @@
+duvidas
+
+http://pt.wikipedia.org/wiki/Markdown
+
+https://help.github.com/articles/setting-your-email-in-git
+
+cd: alterar diretorio
+ls: listar diretorio
+mkdir: criar pasta
+
