@@ -6,3 +6,5 @@ libs = [
 $LOAD_PATH.unshift *Dir.glob(libs)
 
 require "princess"
+
+@characters = [Knight.new(:name=>"Cris Tiro Certo"), Knight.new(:name=>"Ryu")]

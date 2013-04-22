@@ -1,7 +1,7 @@
 class Character
 	attr_accessor :name
-	attr_accessor :strength, :skill, :resistance, :armor, :fire_power 
-	attr_accessor :health
+	attr_accessor :strength, :skill, :resistance, :armor, :fire_power, :current_hp
+	attr_reader :health
 	
 	def initialize(params={})
 		@name = params[:name] || ""
@@ -26,6 +26,7 @@ class Character
 		end.inject(:+)
 	end	
 	
+	private
 	def calculate_health
 		if resistance == 0
 			@health = 1
@@ -34,7 +35,8 @@ class Character
 				Die.roll
 			end.inject(:+)
 		end
+		@current_hp = @health
 	end
-
+	
 end
 
