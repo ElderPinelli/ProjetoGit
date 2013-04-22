@@ -1,3 +1,3 @@
 
 require "princess/die"
-require "princess/character"
+require "models/character"
